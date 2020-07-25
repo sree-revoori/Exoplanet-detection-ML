@@ -18,7 +18,7 @@ from scipy import ndimage
 import seaborn as sns
 
 test_data = pd.read_csv('\Users\srrev\Downloads\1074_1995_bundle_archive\exoTest.csv').fillna(0)
-train_data = pd.read_csv('\Users\srrev\Downloads\1074_1995_bundle_archiv\eexoTrain.csv').fillna(0)
+train_data = pd.read_csv('\Users\srrev\Downloads\1074_1995_bundle_archiv\exoTrain.csv').fillna(0)
 
 categ = {2: 1,1: 0}
 train_data.LABEL = [categ[item] for item in train_data.LABEL]
