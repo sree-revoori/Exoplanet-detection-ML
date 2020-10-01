@@ -185,4 +185,4 @@ print("Accuracy mean: "+ str(mean))
 print("Accuracy variance: "+ str(variance))
 
 #Accuracy mean: 0.92342810474832927    
-#Accuracy variance: 0.26064381617895693
+#Accuracy variance: 0.21064381617895692
