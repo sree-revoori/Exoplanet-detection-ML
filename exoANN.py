@@ -184,5 +184,5 @@ variance = accuracies.std()
 print("Accuracy mean: "+ str(mean))
 print("Accuracy variance: "+ str(variance))
 
-#Accuracy mean: 0.7791307791307792
+#Accuracy mean: 0.92342810474832927    
 #Accuracy variance: 0.26064381617895693
